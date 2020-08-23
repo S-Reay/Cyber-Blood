@@ -3,6 +3,8 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Bullet
     - CharacterController2D
+    - Dialogue_Manager
+    - Dialogue_Trigger
     - EnemyBullet
     - Enemy_Gladiator
     - Enemy_Gladiator_ViewCone
@@ -58,8 +60,12 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/_Scenes/Testing.unity:
     - Class: 1
@@ -107,6 +113,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11464}
     - Class: 114
+      Script: {instanceID: 11498}
+    - Class: 114
       Script: {instanceID: 12046}
     - Class: 114
       Script: {instanceID: 12052}
@@ -124,6 +132,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12518}
     - Class: 114
       Script: {instanceID: 12546}
+    - Class: 114
+      Script: {instanceID: 12652}
     - Class: 114
       Script: {instanceID: 12860}
     - Class: 114
@@ -154,6 +164,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13828}
     - Class: 114
       Script: {instanceID: 13894}
+    - Class: 114
+      Script: {instanceID: 24544}
+    - Class: 114
+      Script: {instanceID: 24588}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1077,7 +1091,19 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d5694f5a64249550875b3195f36659b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Dialogue_Manager
+  - hash:
+      serializedVersion: 2
+      Hash: cefaa6c58a8f7e3f78e20204937b9255
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Dialogue_Trigger
   platform: 19
   scenePathNames:
   - Assets/_Scenes/Testing.unity
-  playerPath: C:/Users/Seth/Documents/Git/Cyber Blood/Builds/Prototype 1/Cyber Blood.exe
+  playerPath: C:/Users/Seth/Documents/Git/Cyber Blood/Builds/Prototype 2/Cyber Blood.exe
