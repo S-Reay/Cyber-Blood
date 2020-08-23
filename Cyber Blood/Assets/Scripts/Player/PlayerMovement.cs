@@ -33,7 +33,6 @@ public class PlayerMovement : MonoBehaviour {
 		{
 			crouch = false;
 		}
-
 	}
 
 	public void OnLanding ()

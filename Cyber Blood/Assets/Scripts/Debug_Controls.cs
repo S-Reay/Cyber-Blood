@@ -5,11 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Debug_Controls : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private bool slowMo = false;
 
     // Update is called once per frame
     void Update()
@@ -17,6 +13,19 @@ public class Debug_Controls : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Keypad5))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        if (Input.GetKeyDown(KeyCode.Keypad6))
+        {
+            if (slowMo)
+            {
+                Time.timeScale = 1;
+                slowMo = false;
+            }
+            else
+            {
+                Time.timeScale = 0.1f;
+                slowMo = true;
+            }
         }
     }
 }
