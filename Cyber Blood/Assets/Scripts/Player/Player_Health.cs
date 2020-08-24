@@ -1,19 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Player_Health : MonoBehaviour
 {
-    public int health = 100;
+    public float maxHealth = 100;
+    public float health;
     public float invincibilityTime = 1.5f;
     public bool invincible = false;
+
+    public Image healthBar;
+
+    private void Awake()
+    {
+        health = maxHealth;
+    }
 
     public void TakeDamage(int damage, bool invincibility)
     {
         if (invincible)
             return;
         health -= damage;
+        healthBar.fillAmount = health / maxHealth;
         if (health <= 0)
         {
             //PLAYER DIES

@@ -4,8 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Through
-  - Enemy
+  - Shootable
   layers:
   - Default
   - TransparentFX
@@ -15,11 +14,11 @@ TagManager:
   - UI
   - 
   - 
-  - Player
-  - Obstacle
-  - Ignore
-  - IgnorePlayer
-  - HurtBox
+  - Lighting
+  - Ground
+  - Postprocessing
+  - 
+  - 
   - 
   - 
   - 
@@ -40,8 +39,8 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
-    uniqueID: 1611635347
+  - name: Fire
+    uniqueID: 3804908061
     locked: 0
   - name: Default
     uniqueID: 0

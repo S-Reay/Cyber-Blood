@@ -19,7 +19,7 @@ public class Enemy_Trooper_ViewCone : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player" && !isShooting)
         {
-            Debug.Log(gameObject.name + " has detected player");
+            //Debug.Log(gameObject.name + " has detected player");
             StartCoroutine(Shoot());
         }
     }
