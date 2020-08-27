@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 8302452661449477310}
   - component: {fileID: 1773345312215274368}
   - component: {fileID: 2884998477724865992}
-  m_Layer: 10
+  m_Layer: 2
   m_Name: ViewCone
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -16,6 +16,9 @@ public class RayCastWeapon : MonoBehaviour
 	public float startShotTimer = 0.7f;
 	private float shotTimer;
 
+	[SerializeField] private CameraShake cameraShake;
+	public GameObject hitParticle;
+
 	private void Awake()
 	{
 		notViewCones = ~ignoreLayerMask;
@@ -36,6 +39,8 @@ public class RayCastWeapon : MonoBehaviour
 
 	IEnumerator Shoot ()
 	{
+		StartCoroutine(cameraShake.Shake(.15f, .065f));
+
 		#region Hits
 		hits.Clear();
 		RaycastHit2D hitInfo0 = Physics2D.Raycast(firePoints[0].position, firePoints[0].right, 100, notViewCones);
@@ -52,12 +57,15 @@ public class RayCastWeapon : MonoBehaviour
 
 		for (int i = 0; i < hits.Count; i++)
 		{
+			Debug.Log(hits[i].transform.name);
+
 			if (hits[i])
 			{
 				Enemy enemy = hits[i].transform.GetComponent<Enemy>();
 				if (enemy != null)
 				{
 					enemy.TakeDamage(damage);
+					Instantiate(hitParticle, hits[i].point, Quaternion.identity);
 				}
 
 				Instantiate(impactEffect, hits[i].point, Quaternion.identity);
@@ -77,7 +85,7 @@ public class RayCastWeapon : MonoBehaviour
 			lineRenderers[i].enabled = true;
 		}
 
-		yield return 0;
+		yield return new WaitForSeconds(0.05f);
 
 		for (int i = 0; i < lineRenderers.Count; i++)
 		{

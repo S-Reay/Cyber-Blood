@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3294428274598305400}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: FirePoint (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4190882794930494598}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: FirePoint (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4899711727401599491}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: FirePoint (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4089694713602426746}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: FirePoint (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 658593812484637258}
   - component: {fileID: 7630914489271261452}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Line (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,7 +258,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1802677232265944033}
   - component: {fileID: 8285036988834885095}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Line (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -386,7 +386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 799048447369556305}
   - component: {fileID: 4756295885450520979}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Line (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -523,7 +523,9 @@ GameObject:
   - component: {fileID: 7950991914483362558}
   - component: {fileID: 7950991914483362559}
   - component: {fileID: 7950991914483362496}
-  m_Layer: 8
+  - component: {fileID: 785212166}
+  - component: {fileID: 785212176}
+  m_Layer: 11
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -624,7 +626,7 @@ MonoBehaviour:
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 567
+    m_Bits: 512
   m_GroundCheck: {fileID: 7950991914674172875}
   m_CeilingCheck: {fileID: 7950991915241918604}
   m_CrouchDisableCollider: {fileID: 7950991914483362556}
@@ -746,9 +748,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5feece30ce6b6c64ca25d4dedcccccb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
   health: 100
   invincibilityTime: 1.5
   invincible: 0
+  healthBar: {fileID: 0}
 --- !u!95 &7950991914483362558
 Animator:
   serializedVersion: 3
@@ -780,7 +784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9f2e3da3d0d1de4491739e280d1ce7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 40
+  damage: 1
   impactEffect: {fileID: 1473625048454486, guid: 284f05ab582ef494a9ab1dd8bc1e76ae,
     type: 3}
   firePoints:
@@ -797,7 +801,11 @@ MonoBehaviour:
   - {fileID: 7630914489271261452}
   ignoreLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1028
+  startShotTimer: 0.7
+  cameraShake: {fileID: 0}
+  hitParticle: {fileID: 1512612941545922789, guid: 6b37e8a205f81a94d8672a6dd030d51c,
+    type: 3}
 --- !u!114 &7950991914483362496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -805,14 +813,40 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7950991914483362550}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df60c8bec1b4a2e4c944bbabe45ce278, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firePoint: {fileID: 7950991914778930524}
+  firePoint: {fileID: 3294428274598305400}
   bulletPrefab: {fileID: 1539632861300792, guid: 96ae8f9dd8fd89941bc4d858375f035b,
     type: 3}
+--- !u!114 &785212166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7950991914483362550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 042ddc396aff82248a6421037829050b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missile: {fileID: 0}
+  shotgun: {fileID: 0}
+--- !u!114 &785212176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7950991914483362550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d06873b89bc48464d830989a2e1f7ec1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7950991914674172874
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,7 +856,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7950991914674172875}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: GroundCheck
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -852,7 +886,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7950991914778930524}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: FirePoint (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -882,7 +916,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7950991915241918604}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: CeilingCheck
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -913,7 +947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7950991915762080146}
   - component: {fileID: 7950991915762080147}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Line (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1041,7 +1075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 862549278434840501}
   - component: {fileID: 5114492774846262686}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Line (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 6888948141807676766}
   - component: {fileID: 4503886912436975718}
   - component: {fileID: 655836371894784369}
-  m_Layer: 10
+  m_Layer: 2
   m_Name: ViewCone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ MonoBehaviour:
   gunPivot: {fileID: 5913061537883225803}
   aimSpeed: 10
   offset: 180
-  timeCount: 0.5
+  shotSpeed: 0.5
 --- !u!1 &5913061537883225803
 GameObject:
   m_ObjectHideFlags: 0

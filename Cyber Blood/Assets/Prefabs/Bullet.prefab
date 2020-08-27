@@ -139,6 +139,8 @@ MonoBehaviour:
   rb: {fileID: 50231956401082150}
   impactEffect: {fileID: 1473625048454486, guid: 284f05ab582ef494a9ab1dd8bc1e76ae,
     type: 3}
+  hitEffect: {fileID: 1512612941545922789, guid: 6b37e8a205f81a94d8672a6dd030d51c,
+    type: 3}
 --- !u!114 &-9088109965140848721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,3 +153,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 926d8a1814a57a04790f16a224e0be70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: 10

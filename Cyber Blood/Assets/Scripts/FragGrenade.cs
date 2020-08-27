@@ -9,10 +9,12 @@ public class FragGrenade : MonoBehaviour
     private bool hasExploded;
 
     public GameObject explosionEffect;
+    public CameraShake cameraShake;
 
     void Start()
     {
         countdown = delay;
+        cameraShake = Camera.main.GetComponent<CameraShake>();
     }
 
     // Update is called once per frame
@@ -27,9 +29,18 @@ public class FragGrenade : MonoBehaviour
     }
     void Explode()
     {
+        StartCoroutine(cameraShake.Shake(.2f, .4f));
+
         Instantiate(explosionEffect, transform.position, transform.rotation);
         //Get nearby objects
+        StartCoroutine(RemoveGrenade());
+        
+    }
 
+    IEnumerator RemoveGrenade()
+    {
+        gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        yield return new WaitForSeconds(.2f);
         Destroy(gameObject);
     }
 }

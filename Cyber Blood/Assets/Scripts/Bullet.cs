@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour {
 	public int damage = 40;
 	public Rigidbody2D rb;
 	public GameObject impactEffect;
+	public GameObject hitEffect;
 
 	// Use this for initialization
 	void Start () {
@@ -16,10 +17,12 @@ public class Bullet : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D hitInfo)
 	{
+		Debug.Log(hitInfo.name);
 		Enemy enemy = hitInfo.GetComponent<Enemy>();
 		if (enemy != null)
 		{
 			enemy.TakeDamage(damage);
+			Instantiate(hitEffect, transform.position, transform.rotation);
 		}
 
 		Instantiate(impactEffect, transform.position, transform.rotation);
