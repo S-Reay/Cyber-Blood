@@ -20,15 +20,37 @@ public class Enemy_Warrior : Enemy
     public bool isDashing = false;
     public bool isStunned = false;
 
+    private Animator animator;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         dashTime = startDashTime;
         stunTime = startStunTime;
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
     {
+        if (isStunned)
+        {
+            animator.SetBool("isStunned", true);
+            animator.SetBool("isWalking", false);
+            animator.SetBool("isDashing", false);
+        }
+        else if (isDashing)
+        {
+            animator.SetBool("isStunned", false);
+            animator.SetBool("isWalking", false);
+            animator.SetBool("isDashing", true);
+        }
+        else if (!isDashing && !isStunned)
+        {
+            animator.SetBool("isStunned", false);
+            animator.SetBool("isWalking", true);
+            animator.SetBool("isDashing", false);
+        }
+
         if (!isStunned)
         {
             transform.Translate(Vector2.right * speed * Time.deltaTime);

@@ -1,0 +1,1102 @@
+fileFormatVersion: 2
+guid: f157d5146625429489347a18367317b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4954554962777201642
+    second: neon-ninja_0
+  - first:
+      213: -5431745139220856451
+    second: neon-ninja_1
+  - first:
+      213: -4797702822243415671
+    second: neon-ninja_2
+  - first:
+      213: 477299365617721958
+    second: neon-ninja_3
+  - first:
+      213: -1256461062022377007
+    second: neon-ninja_4
+  - first:
+      213: -5735477089922337394
+    second: neon-ninja_5
+  - first:
+      213: -7833628563554108549
+    second: neon-ninja_6
+  - first:
+      213: 8983277913665603110
+    second: neon-ninja_7
+  - first:
+      213: 9169347428319108021
+    second: neon-ninja_8
+  - first:
+      213: 1161785422386347485
+    second: neon-ninja_9
+  - first:
+      213: -2037335260424024813
+    second: neon-ninja_10
+  - first:
+      213: 4863529840658052554
+    second: neon-ninja_11
+  - first:
+      213: -3805283366642978419
+    second: neon-ninja_12
+  - first:
+      213: 6222950796485495261
+    second: neon-ninja_13
+  - first:
+      213: 3155696964605400743
+    second: neon-ninja_14
+  - first:
+      213: 4871817552752391559
+    second: neon-ninja_15
+  - first:
+      213: 2019161028440202661
+    second: neon-ninja_16
+  - first:
+      213: -6836844133939141997
+    second: neon-ninja_17
+  - first:
+      213: -967962596211250512
+    second: neon-ninja_18
+  - first:
+      213: -4042882685711098839
+    second: neon-ninja_19
+  - first:
+      213: 4726978663312017209
+    second: neon-ninja_20
+  - first:
+      213: 3263485868784203706
+    second: neon-ninja_21
+  - first:
+      213: -6008391103570238052
+    second: neon-ninja_22
+  - first:
+      213: -3926008430389746940
+    second: neon-ninja_23
+  - first:
+      213: 1125429560795996085
+    second: neon-ninja_24
+  - first:
+      213: -1708273340597542499
+    second: neon-ninja_25
+  - first:
+      213: 7762657549128018086
+    second: neon-ninja_26
+  - first:
+      213: -4397102316311651462
+    second: neon-ninja_27
+  - first:
+      213: 2400614530679932187
+    second: neon-ninja_28
+  - first:
+      213: -8532759633249089415
+    second: neon-ninja_29
+  - first:
+      213: 7229849259819329039
+    second: neon-ninja_30
+  - first:
+      213: -6770051355521637957
+    second: neon-ninja_31
+  - first:
+      213: 3033283195411739761
+    second: neon-ninja_32
+  - first:
+      213: -5707468864859809867
+    second: neon-ninja_33
+  - first:
+      213: -1679593719308771443
+    second: neon-ninja_34
+  - first:
+      213: 3913084648328795902
+    second: neon-ninja_35
+  - first:
+      213: 8563425599382471265
+    second: neon-ninja_36
+  - first:
+      213: -3978625997863474315
+    second: neon-ninja_37
+  - first:
+      213: -3182589385682666788
+    second: neon-ninja_38
+  - first:
+      213: 4409045213532945229
+    second: neon-ninja_39
+  - first:
+      213: 275424681666675683
+    second: neon-ninja_40
+  - first:
+      213: 997471422177621963
+    second: neon-ninja_41
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: neon-ninja_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 499
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614248ff282ed3bb0800000000000000
+      internalID: -4954554962777201642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 499
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71494213909e94b0800000000000000
+      internalID: -5431745139220856451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 499
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989ca46d3b22b6db0800000000000000
+      internalID: -4797702822243415671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_3
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 499
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662e9238e35bf9600800000000000000
+      internalID: 477299365617721958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 499
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1db043257209ee0800000000000000
+      internalID: -1256461062022377007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_5
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 499
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85b9cd79fd7760b0800000000000000
+      internalID: -5735477089922337394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_6
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 499
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bf007635c594390800000000000000
+      internalID: -7833628563554108549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 401
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62686a2caa30bac70800000000000000
+      internalID: 8983277913665603110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 399
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb1a1f97e0104f70800000000000000
+      internalID: 9169347428319108021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_9
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 399
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddb09eafad7f1010800000000000000
+      internalID: 1161785422386347485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 399
+        width: 75
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d4c0aff5ee9b3e0800000000000000
+      internalID: -2037335260424024813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_11
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 401
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac57fea3f9abe7340800000000000000
+      internalID: 4863529840658052554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_12
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 402
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81fa8570fae03bc0800000000000000
+      internalID: -3805283366642978419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_13
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 401
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9804f57cc5c5650800000000000000
+      internalID: 6222950796485495261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_14
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 414
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a655127ba94bcb20800000000000000
+      internalID: 3155696964605400743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 295
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785b152904c2c9340800000000000000
+      internalID: 4871817552752391559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_16
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 304
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad9d74e140850c10800000000000000
+      internalID: 2019161028440202661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_17
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 303
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39228dbbb76ae11a0800000000000000
+      internalID: -6836844133939141997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_18
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 303
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0baa6f0b52b1192f0800000000000000
+      internalID: -967962596211250512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_19
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 304
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cdc911e9bc4e7c0800000000000000
+      internalID: -4042882685711098839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_20
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 303
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9374097bc0a999140800000000000000
+      internalID: 4726978663312017209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_21
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 303
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7b3626b1b3a4d20800000000000000
+      internalID: 3263485868784203706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_22
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 203
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9524180028ed9ca0800000000000000
+      internalID: -6008391103570238052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_24
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 203
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf18f609345e9f00800000000000000
+      internalID: 1125429560795996085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_25
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 203
+        width: 75
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91e962927efa48e0800000000000000
+      internalID: -1708273340597542499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_26
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 206
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8a7c0a9ef7abb60800000000000000
+      internalID: 7762657549128018086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_27
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 205
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b523b7dba5af2c0800000000000000
+      internalID: -4397102316311651462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_28
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 205
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1581d75232b05120800000000000000
+      internalID: 2400614530679932187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_29
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 206
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9784562725c859980800000000000000
+      internalID: -8532759633249089415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_30
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 107
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06e62fa895955460800000000000000
+      internalID: 7229849259819329039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_31
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 107
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb12bf25922fb02a0800000000000000
+      internalID: -6770051355521637957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_32
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 108
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174bda5cef2681a20800000000000000
+      internalID: 3033283195411739761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_33
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 107
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7dd6f8e4ffac0b0800000000000000
+      internalID: -5707468864859809867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_34
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 107
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f9f914962e0b8e0800000000000000
+      internalID: -1679593719308771443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_35
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 108
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef61ca751c11e4630800000000000000
+      internalID: 3913084648328795902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_36
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 107
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162cdaf263667d670800000000000000
+      internalID: 8563425599382471265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_37
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 9
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ba63f0cb419c8c0800000000000000
+      internalID: -3978625997863474315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_38
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 10
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdab478d0db25d3d0800000000000000
+      internalID: -3182589385682666788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_39
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 9
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b7447f243103d30800000000000000
+      internalID: 4409045213532945229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_40
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 9
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e30e19e94182d300800000000000000
+      internalID: 275424681666675683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neon-ninja_41
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 10
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7308049fab7dd00800000000000000
+      internalID: 997471422177621963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 49037b732e449b546a618db4d32662fb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
