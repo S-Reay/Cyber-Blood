@@ -525,6 +525,7 @@ GameObject:
   - component: {fileID: 7950991914483362496}
   - component: {fileID: 785212166}
   - component: {fileID: 785212176}
+  - component: {fileID: 10732757944230973}
   m_Layer: 11
   m_Name: Player
   m_TagString: Player
@@ -693,7 +694,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.35831714}
+  m_Offset: {x: 0, y: 0.3929546}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -704,7 +705,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.6089685, y: 1.6509867}
+  m_Size: {x: 1.6089685, y: 1.5817118}
   m_EdgeRadius: 0
 --- !u!58 &7950991914483362555
 CircleCollider2D:
@@ -719,9 +720,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.58}
+  m_Offset: {x: 0, y: -0.5605053}
   serializedVersion: 2
-  m_Radius: 0.7997651
+  m_Radius: 0.74187815
 --- !u!114 &7950991914483362557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -843,11 +844,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7950991914483362550}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d06873b89bc48464d830989a2e1f7ec1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &10732757944230973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7950991914483362550}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bba865420a01ad241a6ca097c178f6d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grenade: {fileID: 263436718668862697, guid: 44442620a8ce25c4a8f1715839ff236a, type: 3}
+  firePoint: {fileID: 7950991914778930524}
+  throwForce: 375
 --- !u!1 &7950991914674172874
 GameObject:
   m_ObjectHideFlags: 0

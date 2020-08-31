@@ -23,6 +23,7 @@ public class Player_Health : MonoBehaviour
         if (invincible)
             return;
         health -= damage;
+        Debug.Log("Setting " + healthBar.name + " to " + (health / maxHealth));
         healthBar.fillAmount = health / maxHealth;
         if (health <= 0)
         {

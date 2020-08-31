@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RayCastWeapon : MonoBehaviour
 {
-	public int damage = 10;
+	public int damage = 25;
 	public GameObject impactEffect;
 	public List<Transform> firePoints = new List<Transform>(5);
 	public List<LineRenderer> lineRenderers = new List<LineRenderer>(5);
@@ -57,7 +57,7 @@ public class RayCastWeapon : MonoBehaviour
 
 		for (int i = 0; i < hits.Count; i++)
 		{
-			Debug.Log(hits[i].transform.name);
+			//Debug.Log(hits[i].transform.name);
 
 			if (hits[i])
 			{

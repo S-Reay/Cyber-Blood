@@ -8,6 +8,9 @@ public class FragGrenade : MonoBehaviour
     private float countdown;
     private bool hasExploded;
 
+    public float radius = 5f;
+    public float force = 700f;
+
     public GameObject explosionEffect;
     public CameraShake cameraShake;
 
@@ -33,6 +36,16 @@ public class FragGrenade : MonoBehaviour
 
         Instantiate(explosionEffect, transform.position, transform.rotation);
         //Get nearby objects
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, radius);
+
+        foreach (Collider2D nearbyObject in colliders)
+        {
+            Rigidbody2D rb = nearbyObject.GetComponent<Rigidbody2D>();
+            if (rb != null)
+            {
+                rb.AddExplosionForce(force, transform.position, radius);
+            }
+        }
         StartCoroutine(RemoveGrenade());
         
     }

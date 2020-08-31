@@ -16,7 +16,7 @@ public class EnemyBullet : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D hitInfo)
 	{
-		if (hitInfo.tag == "Enemy")
+		if (hitInfo.tag == "Enemy" || hitInfo.tag == "Ignore")
 			return;
 
 		Player_Health player = hitInfo.GetComponent<Player_Health>();
@@ -24,6 +24,9 @@ public class EnemyBullet : MonoBehaviour {
 		{
 			player.TakeDamage(damage, true);
 		}
+
+		Debug.Log("Tag " + hitInfo.tag);
+		Debug.Log(hitInfo.name);
 
 		Instantiate(impactEffect, transform.position, transform.rotation);
 

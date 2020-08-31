@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 8515468800560202555}
   - component: {fileID: 7505014998772780205}
   - component: {fileID: 6650803933667390241}
-  m_Layer: 12
+  m_Layer: 0
   m_Name: Warrior
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ Transform:
   m_GameObject: {fileID: 5864836598188158643}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.3, y: 0.95, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 5242182509869282550}
   - {fileID: 3944390495153494441}
@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 8302452661449477310}
   - component: {fileID: 1773345312215274368}
   - component: {fileID: 2884998477724865992}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ViewCone
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player_Weapons : MonoBehaviour
 {
     public ProjectileWeapon missile;
     public RayCastWeapon shotgun;
+
+    public Image missileImage;
+    public Image shotgunImage;
 
     void Start()
     {
@@ -14,6 +18,8 @@ public class Player_Weapons : MonoBehaviour
 
         shotgun.enabled = true;
         missile.enabled = false;
+        shotgunImage.enabled = true;
+        missileImage.enabled = false;
     }
 
     void Update()
@@ -22,11 +28,15 @@ public class Player_Weapons : MonoBehaviour
         {
             shotgun.enabled = true;
             missile.enabled = false;
+            shotgunImage.enabled = true;
+            missileImage.enabled = false;
         }
         else if (Input.GetButtonDown("Weapon 2"))
         {
             shotgun.enabled = false;
             missile.enabled = true;
+            shotgunImage.enabled = false;
+            missileImage.enabled = true;
         }
     }
 }
